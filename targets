@@ -1,2 +1,1 @@
-/home/bilbo/
-/jortpool/LabStorage/
+/home/$(whoami)
