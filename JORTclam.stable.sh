@@ -9,6 +9,7 @@
 sanitycheck="$(which clamscan)"
 if [ -z "$sanitycheck" ]; then
         echo "please install ClamAV via package manager for $(uname -o). Thank you"
+	sleep 0.5
 	exit 1
 fi
 
